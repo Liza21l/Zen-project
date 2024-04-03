@@ -1,0 +1,19 @@
+// Convert px to rem
+@function rem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
+
+// Font settings
+@mixin font($font-family, $font-weight, $color) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color: $color;
+  }
+
+// Convert px size of container to %
+@function elWidth($elWidth, $canvasWidth) {
+  $percentage: ($elWidth / $canvasWidth) * 100;
+  $vwValue: #{$percentage}vw;
+  @return $vwValue;
+}

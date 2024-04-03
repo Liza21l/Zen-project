@@ -1,6 +1,8 @@
+import PlaceAnOrder from './Components/PlaceAnOrder/PlaceAnorder';
+
 const App = () => {
     return (
-        <h1>App</h1>
+        <PlaceAnOrder/>
     )
 }
 

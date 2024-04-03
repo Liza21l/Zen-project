@@ -1,0 +1,47 @@
+// Import reset css
+@import './reset.scss';
+
+// Import all functions for convenient and fast layout
+@import "./functions.scss";
+
+// Fonts ================================================================================================================================================================
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap);
+// &display=swap
+
+
+// @include font("{font-family}, sans-serif", {font-size}, {font-weight}, {color});
+body {
+    @include font("Inter, sans-serif", normal, #000);
+    font-size: rem(16);
+}
+
+// Adaptive settings =====================================================================================================================================================
+
+// Width of restrictive container ========================================================================================================================================
+// Width of container in figma / width of layout in figma * 100%
+.container {
+    width: elWidth(1374px, 1440px); // containerWidth({container in figma}px, {width of layout in figma}px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// Global settings ========================================================================================================================================================
+// Padding
+#root {
+    padding: 0 rem(15);
+}
+
+// Change width of restrictive container on 700px
+@media (max-width: 700px) {
+    .container {
+        width: 96vw;
+    }
+}
+
+// Change width of restrictive container on 400px
+@media (max-width: 400px) {
+    .container {
+        width: 93vw;
+    }
+}
