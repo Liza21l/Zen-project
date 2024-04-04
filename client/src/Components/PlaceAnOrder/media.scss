@@ -1,0 +1,222 @@
+@import '../../utils/styles.scss';
+
+// Upper section
+@media(max-width:1450px) {
+    .upper-section {
+        .round-div {
+            width: elWidth(175, 1334);
+        }
+    }
+}
+
+@media(max-width:1000px) {
+    .upper-section {
+        .round-div {
+            width: elWidth(250, 1334);
+        }
+    }
+}
+
+@media(max-width:700px) {
+    .upper-section {
+        .round-div {
+            display: none;
+        }
+    }
+}
+
+// Cards section
+@media(max-width:2000px) {
+    .cards-section {
+        .card {
+            width: 15%;
+        }
+    }
+}
+
+@media(max-width:1600px) {
+    .cards-section {
+        .card {
+            width: 17%;
+        }
+    }
+}
+
+@media(max-width:1400px) {
+    .cards-section {
+        .card {
+            width: 20%;
+        }
+    }
+}
+
+@media(max-width:1200px) {
+    .cards-section {
+        .card {
+            width: 23%;
+        }
+    }
+}
+
+@media(max-width:1000px) {
+    .cards-section {
+        .card {
+            width: 27%;
+        }
+    }
+}
+
+@media(max-width:850px) {
+    .cards-section {
+        .card {
+            width: 31%;
+        }
+    }
+}
+
+@media(max-width:750px) {
+    .cards-section {
+        .card {
+            width: 36%;
+        }
+    }
+}
+
+@media(max-width:630px) {
+    .cards-section {
+        .card {
+            width: 42%;
+        }
+    }
+}
+
+@media(max-width:540px) {
+    .cards-section {
+        .card {
+            width: 48%;
+        }
+    }
+}
+
+@media(max-width:470px) {
+    .cards-section {
+        .card {
+            width: 55%;
+        }
+    }
+}
+
+@media(max-width:420px) {
+    .cards-section {
+        .card {
+            width: 60%;
+        }
+    }
+}
+
+@media(max-width:400px) {
+    .cards-section {
+        .card {
+            width: 70%;
+        }
+    }
+}
+
+@media(max-width:330px) {
+    .cards-section {
+        .card {
+            width: 80%;
+        }
+    }
+}
+
+// Info
+@media(max-width:1500px) {
+    .form-section {
+        .info-block {
+            hr {
+                width: 20%;
+            }
+        }
+    }
+}
+
+@media(max-width:700px) {
+    .form-section {
+        .info-block {
+            hr {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .form-section {
+        .info-block {
+            hr {
+                width: 40%;
+            }
+        }
+    }
+}
+
+// Form section
+@media(max-width:1300px) {
+    .form-section {
+        .form {
+            .form_delivery {
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .form-section {
+        .form {
+            .form_delivery {
+                button {
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:700px) {
+    .form-section {
+        .form {
+            .form_info {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .form-section {
+        .form {
+            .form_delivery {
+                width: 26%;
+            }
+            .form_info {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media(max-width:400px) {
+    .form-section {
+        .form {
+            .form_info {
+                width: 70%;
+            }
+        }
+    }
+}
