@@ -1,0 +1,97 @@
+@import '../../utils/styles.scss';
+
+.upper-section {
+    width: 100%;
+    display: flex;
+    &_info-block {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p {
+            font-size: 18px;
+            color: #967B62;
+        }
+        hr {
+            width: 20%;
+            color: #967B62;
+        }
+    }
+}
+
+.main-section {
+    width: 100%;
+    margin-top: 100px;
+    .card {
+        width: 40%;
+        height: 110px;
+        background: #F4E3D3;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        border-radius: 16px;
+        &_img {
+            width: 25%;
+            border-radius: 16px;
+            border: none;
+        }
+        &_main-inf {
+            &_name {
+                color: #4A3D31;
+                text-align: center;
+            }
+            &_price {
+                color: #78BD58;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+        &_count {
+            &_text {
+                color: #4A3D31;
+            }
+            &_value {
+                background: #E6C09D;
+                border-radius: 4px;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
+        }
+        &_date {
+            &_text {
+                color: #4A3D31;
+            }
+            &_value {
+                background: #E6C09D;
+                border-radius: 4px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
+        }
+        .status {
+            background: #78BD58;
+            color: white;
+            align-self: center;
+            width: 17.5%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            transition-duration: 0.5s;
+            &:hover {
+                background: #6caa4f;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}

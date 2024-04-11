@@ -1,4 +1,4 @@
-import PlaceAnOrder from './Components/PlaceAnOrder/PlaceAnorder';
+import PlaceAnOrder from './Components/PlaceAnOrder/PlaceAnOrder';
 
 const App = () => {
     return (
