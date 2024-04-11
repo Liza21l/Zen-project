@@ -2,6 +2,7 @@ import BackToTheMain from '../BackToTheMain/BackToTheMain';
 import ProductsList from './ProductsList/ProductsList';
 
 import './PlaceAnOrder.scss';
+import './media.scss'
 
 import imgSrc from './img.png';
 import pickupImg from './img/svg1.svg';
