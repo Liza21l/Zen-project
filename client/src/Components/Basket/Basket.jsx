@@ -1,9 +1,10 @@
 import "./basket.css"
 import ProductImg from "./img/product-img.png"
+import Header from "../Header/Header"
 const Basket = () => {
     return (
         <div className="container">
-            <header></header>
+            <Header/>
             <div className="page">
                 <p className="basket-text">Basket</p>
                 <hr className="hr-line" />
