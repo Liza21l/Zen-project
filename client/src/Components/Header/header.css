@@ -1,0 +1,57 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+.your-info{
+    display: flex;
+    width: 600px;
+    gap: 50px;
+}
+.nav-text{
+    color: #A3876E;
+}
+hr{
+    width: 1px;
+    height: 27px;
+    background-color: #4A3D31;
+}
+.info-img-basket{
+    width: 51px;
+    height: 51px;
+}
+.info-img-profile{
+    width: 41px;
+    height: 41px;
+}
+.basket{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Burger{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+@media screen and (max-width: 950px) {
+    .nav-menu{
+        display: none !important;
+    }
+    .your-info{
+        display: none !important;
+    }
+    .Burger{
+        display: block;
+    }
+}
