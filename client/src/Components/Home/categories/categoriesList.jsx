@@ -1,9 +1,14 @@
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import axios from "axios"
 import CategoriesListItem from "../categories/categoriesListItem"
+import {  setProduct } from "../../../features/sllices/productSllice"
 
 const CategoriesList = () => {
-    const {categories, categoriesActive} = useSelector(state => state.product)
+    const dispatch = useDispatch()
+    const {categories, categoriesActive, list} = useSelector(state => state.product)
+    if (list.length === 0) {
+        dispatch(setProduct(categoriesActive))
+    }
     return (
         <ul>
             {

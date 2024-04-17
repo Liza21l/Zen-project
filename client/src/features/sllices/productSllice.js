@@ -28,7 +28,7 @@ const productSlice = createSlice({
     },
     changeCategory: (state, action) => {
         state.categoriesActive = action.payload
-        state.filterList = state.list.filter((el) => el.categories ===  action.payload)
+        state.list = state.list.filter((el) => el.categories ===  action.payload)
     }
 })
 

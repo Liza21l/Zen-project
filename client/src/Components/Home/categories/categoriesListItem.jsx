@@ -1,11 +1,11 @@
 import { useDispatch } from "react-redux";
-import { changeCategory } from "../../../features/sllices/productSllice";
+import { changeCategory, setProduct } from "../../../features/sllices/productSllice";
 import s from "./categories.module.scss"
 
 const CategoriesListItem  = (props)=> {
     const dispatch = useDispatch();
   const handleClick = () => {
-    dispatch(changeCategory(props.text));
+    dispatch(setProduct(props.text));
   };
   return (
     <li>
