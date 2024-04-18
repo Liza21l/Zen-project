@@ -1,12 +1,17 @@
 import PlaceAnOrder from './Components/PlaceAnOrder/PlaceAnorder';
-import HomeList from '../src/Components/Home/HomeList';
-import CategoriesList from './Components/Home/categories/categoriesList';
+import MainPage from '../src/pages/main'
+import { BrowserRouter, Routes, Route}  from"react-router-dom"
 
 const App = () => {
     return (
         <>
-       <CategoriesList/>
-        <HomeList/>
+        <BrowserRouter>
+        <Routes>
+            <Route path="/" element={
+                <MainPage/>
+            }/>
+        </Routes>
+        </BrowserRouter>
         </>
     )
 }
