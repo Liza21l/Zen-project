@@ -1,6 +1,7 @@
 import CategoriesList from '../Components/Home/categories/categoriesList';
 import HomeList from '../Components/Home/HomeList';
 
+
 const MainPage = () => {
     return (
         <main>
