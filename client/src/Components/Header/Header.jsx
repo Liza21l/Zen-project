@@ -9,14 +9,14 @@ const Header = () => {
         <header>
             <img className="" src={Logo} alt="" />
             <nav className="nav-menu">
-                <Link to="/"><p className="nav-text">Home</p></Link>
-                <Link to="/ourorders"><p className="nav-text">Our orders</p></Link>
-                <Link to="/information"><p className="nav-text">Information</p></Link>
+                <p to="/"><p className="nav-text">Home</p></p>
+                <p to="/ourorders"><p className="nav-text">Our orders</p></p>
+                <p to="/information"><p className="nav-text">Information</p></p>
             </nav>
             <div className="your-info">
                 <div className="basket">
                     <hr />
-                    <Link to="/basket"><img className="info-img-basket" src={BasketImg} alt="" /></Link>
+                    <p to="/basket"><img className="info-img-basket" src={BasketImg} alt="" /></p>
                 </div>
                  <div className="profile">
                     <p className="nav-text">Your profile</p>
