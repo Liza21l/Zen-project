@@ -1,6 +1,7 @@
 import {useSelector, useDispatch} from "react-redux"
 import HomeListItem from "./HomeListItem"
 import { setProduct } from "../../features/sllices/productSllice"
+import s from "../Home/categories/categories.module.scss"
 
 const HomeList = (props) => {
     const dispatch = useDispatch()
@@ -15,8 +16,8 @@ const HomeList = (props) => {
     )
 })
     return (
-        <div>
-            <button onClick={handleGetProduct}>Drinks</button>
+        <div className={s.product}>
+            <hr className={s.hr}></hr>
             {ProductCollection}
         </div>
     )
